@@ -1,4 +1,24 @@
+.search-container{
+  background-color:orange;
+  border:2px solid black;
+  height:100px;
+  width:400px;
+  text-align: center;
+  margin:auto;
+  border-radius:50%;
+  margin-bottom: 50px;
 
+}
+.facility{
+  background-color:orange;
+  border:2px solid black;
+  height:80px;
+  width:400px;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 0px;
+  
+}
 
 .platforms{
     width: 900px;
@@ -207,6 +227,27 @@ form button[type="submit"]{
   top:-250px;
   left:300px;
   display: inline-block;
+
+}
+.photo img{
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 50%;
+  height:50%;
+}
+
+.line hr{
+  border: none;
+  width:1500px;
+  height: 3px;   
+  background-color: orange; 
+  margin: -40px 0px;
+}
+
+.large-button{
+  position:relative;
+  top:100px;
+  left:100px;
 
 }
 
