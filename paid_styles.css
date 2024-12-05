@@ -77,8 +77,8 @@ h3{
   width:1050px;
   height:250px;
   position: relative;
-  top:25px;
-  left:20px;
+  top:-20px;
+  left:0px;
 }
 a.text:active, 
 a.text:hover,  
