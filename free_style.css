@@ -86,16 +86,13 @@ a.text {
    text-decoration: none;
    color: black;
 }
-.large-button {
+.button {
     position: relative;
-    top:350px;
-    left:70px;
-    padding: 12px 70px; 
-    font-size: 16px; 
+    left:300px; 
+    background: orange;
+
     }
-    body {
-      background-color: #405061; /* Сине-серый */
-    }
+
 .otziv{
     border:5px solid black;
     margin: -300px 300px;
