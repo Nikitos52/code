@@ -79,7 +79,7 @@ a.text {
 .otziv{
     border:5px solid black;
     border-radius: 10px;
-    margin: 0px 300px;
+    margin: -180px 300px;
     width:900px;
     height:400px;
     background-color: rgb(221, 173, 69);
@@ -107,104 +107,107 @@ form button[type="submit"]{
 }
 
 .кнопка button {
-  border-radius: 10px; /* Настройте для управления округлостью */
-  padding: 5px 10px; /* Настройте размер */
+  border-radius: 10px; 
+  padding: 10px 15px; 
   font-size: 15px;
-  background-color: #4be5ea; /* Пример цвета — измените по необходимости */
+  background-color: #4be5ea; 
   color: white;
-  border: none; /* Удаляем стандартную рамку кнопки */
-  cursor: pointer; /* Устанавливаем курсор "указатель" при наведении */
+  border: none; 
+  cursor: pointer;
   position: relative;
-  left:130px;
-  top:-30px;
+  left:46%;
+  top:-10px;
 }
 .price{
   border:5px solid rgb(221, 173, 69); 
   border-radius: 10px;
   background-color:rgb(221, 173, 69) ;
-  width:12%;
+  width:60%;
   height:5%;
   position:relative;
-  top:-400px;
-  left:325px;
+  top:-330px;
+  left:300px;
   display: inline-block;
 }
 .slovoprice{
     position: relative;
-    left:20px;
-    top:15px;
+    left:405px;
+    top:0px;
 }
-.price-frame {
-  border: none;
-  display: none; 
-  position: absolute;
-  top: 50%; 
-  left: 110%; 
-  transform: translateY(-50%); 
-  border: 1px solid black;
-  padding: 10px;
-  background-color: white;
-  width:200px;
-  height:50px;
+.price-frame {  
+  background-color: rgb(46, 74, 112);
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid black;
+ 
+}
+.price-frame p{
+  color:rgb(63, 236, 115);
+  font-size:1.2em;
+  font-weight:bold;
+  text-align: center;
+  
 }
 .slovophone{
   position: relative;
-  left:20px;
-  top:15px;
+  left:340px;
+  top:0px;
 }
-.phone-frame {
-border: none;
-display: none; 
-position: absolute;
-top: 50%; 
-left: 110%; 
-transform: translateY(-50%); 
-border: 1px solid black;
-padding: 10px;
-background-color: white;
-width:200px;
-height:50px;
+.phone-frame { 
+  background-color: rgb(46, 74, 112);
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid black;
+
+}
+
+.phone-frame p{
+  color:rgb(63, 236, 115);
+  font-size:1.2em;
+  font-weight:bold;
+  text-align: center;
 }
 .phone{
   border:5px solid rgb(221, 173, 69); 
   border-radius: 10px;
   background-color:rgb(221, 173, 69) ;
-  width:12%;
+  width:60%;
   height:5%;
   position:relative;
-  top:-220px;
-  left:135px;
+  top:-300px;
+  left:300px;
   display: inline-block;
 
 }
 
 .slovotime{
   position: relative;
-  left:10px;
-  top:15px;
+  left:355px;
+  top:0px;
 }
 .time-frame {
-border: none;
-display: none; 
-position: absolute;
-top: 50%; 
-left: 110%; 
-transform: translateY(-50%); 
-border: 1px solid black;
-padding: 10px;
-background-color: white;
-width:200px;
-height:50px;
+  background-color: rgb(46, 74, 112);
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid black;
+
+}
+
+.time-frame p{
+  color:rgb(63, 236, 115);
+  font-size:1.2em;
+  font-weight:bold;
+  text-align: center;
 }
 .time{
   border:5px solid rgb(221, 173, 69); 
   border-radius: 10px;
   background-color:rgb(221, 173, 69) ;
-  width:12%;
+  width:60%;
   height:5%;
   position:relative;
-  top:-50px;
-  left:-60px;
+  top:-250px;
+  left:300px;
   display: inline-block;
 
 }

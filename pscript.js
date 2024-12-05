@@ -13,7 +13,7 @@ if (priceFrame.style.display === "none" || priceFrame.style.display === "") {
             
 //Phone Script
 const phoneButton = document.getElementById("showPhone");
-const phoneFrame = document.getElementById("phoneFrame2"); // Corrected ID
+const phoneFrame = document.getElementById("phoneFrame"); // Corrected ID
             
 phoneButton.addEventListener("click", () => {
 if (phoneFrame.style.display === "none" || phoneFrame.style.display === "") {
@@ -25,7 +25,7 @@ if (phoneFrame.style.display === "none" || phoneFrame.style.display === "") {
 
 //Time Script
 const timeButton = document.getElementById("showtime");
-const timeFrame = document.getElementById("timeFrame3"); // Corrected ID
+const timeFrame = document.getElementById("timeFrame"); // Corrected ID
             
 timeButton.addEventListener("click", () => {
 if (timeFrame.style.display === "none" || timeFrame.style.display === "") {
