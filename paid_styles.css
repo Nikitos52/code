@@ -9,7 +9,7 @@
   margin-bottom: 50px;
 
 }
-.facility{
+.request{
   background-color:orange;
   border:2px solid black;
   height:80px;
@@ -251,6 +251,20 @@ form button[type="submit"]{
 
 }
 
+#facilities {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.facility {
+  width: 300px; 
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.facility img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
