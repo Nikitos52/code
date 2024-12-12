@@ -1,4 +1,5 @@
-fetch('js/pfootball.json')
+let data = [];
+fetch('js/lublinoff.json')
     .then(response => {
 
         if (!response.ok) {
@@ -41,6 +42,10 @@ function createCard(item) {
     card.appendChild(type);
     card.appendChild(adres);
     card.appendChild(opisanie);
+
+    card.addEventListener('click', () => {
+        window.location.href = item.link; 
+    });
 
     return card;
 }

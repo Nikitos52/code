@@ -1,4 +1,5 @@
-fetch('js/volleyball.json')
+let data = [];
+fetch('js/marinofb.json')
     .then(response => {
 
         if (!response.ok) {

@@ -1,3 +1,5 @@
+const form = document.querySelector('form'); 
+const queryInput = document.querySelector('input[name="query"]'); 
 const футболRadio = document.getElementById("футбол");
 const баскетболRadio = document.getElementById("баскетбол");
 const волейболRadio = document.getElementById("волейбол");
@@ -5,44 +7,54 @@ const бесплатныйRadio = document.getElementById("бесплатный"
 const платныйRadio = document.getElementById("платный");
 const поискButton = document.getElementById("поиск");
 
-let выбранныйСпорт = null;
-let доступ = null;
+let выбранныйСпорт = null; 
+let доступ = null;     
 
-футболRadio.addEventListener("click", () => {
-  выбранныйСпорт = "футбол";
-});
 
-баскетболRadio.addEventListener("click", () => {
-  выбранныйСпорт = "баскетбол";
-});
+футболRadio.addEventListener("change", () => { выбранныйСпорт = "футбол"; });
+баскетболRadio.addEventListener("change", () => { выбранныйСпорт = "баскетбол"; });
+волейболRadio.addEventListener("change", () => { выбранныйСпорт = "волейбол"; });
+бесплатныйRadio.addEventListener("change", () => { доступ = "бесплатный"; });
+платныйRadio.addEventListener("change", () => { доступ = "платный"; });
 
-волейболRadio.addEventListener("click", () => {
-  выбранныйСпорт = "волейбол";
-});
-
-бесплатныйRadio.addEventListener("click", () => {
-  доступ = "бесплатный";
-});
-
-платныйRadio.addEventListener("click", () => {
-  доступ = "платный";
-});
 
 поискButton.addEventListener("click", () => {
-  if (выбранныйСпорт === "футбол" && доступ === "бесплатный") {
-    window.location.href = "f.html";
-  } else if (выбранныйСпорт === "футбол" && доступ === "платный") {
-    window.location.href = "pf.html";
-  } else if (выбранныйСпорт === "баскетбол" && доступ === "бесплатный") {
-    window.location.href = "b.html";
-  } else if (выбранныйСпорт === "баскетбол" && доступ === "платный") {
-    window.location.href = "paidbasketball.html";
-  } else if (выбранныйСпорт === "волейбол" && доступ === "бесплатный") {
-    window.location.href = "v.html";
-  } else if (выбранныйСпорт === "волейбол" && доступ === "платный") {
-    window.location.href = "paidvolleyball.html";
+  const query = queryInput.value.toLowerCase(); 
+  if (выбранныйСпорт && доступ) { 
+    let targetPage = null; 
+
+    if (query === 'люблино') {
+      switch (выбранныйСпорт) {
+        case "футбол":
+          targetPage = доступ === "бесплатный" ? "lublinoff.html" : "lublinopf.html";
+          break;
+        case "баскетбол":
+          targetPage = доступ === "бесплатный" ? "lublinofb.html" : "lublinopb.html";
+          break;
+        case "волейбол":
+          targetPage = доступ === "бесплатный" ? "lublinofv.html" : "lublinopv.html";
+          break;
+      }
+    } else if (query === 'марьино') {
+      switch (выбранныйСпорт) {
+        case "футбол":
+          targetPage = доступ === "бесплатный" ? "marinoff.html" : "marinopf.html";
+          break;
+        case "баскетбол":
+          targetPage = доступ === "бесплатный" ? "marinofb.html" : "marinopb.html";
+          break;
+        case "волейбол":
+          targetPage = доступ === "бесплатный" ? "marinofv.html" : "marinopv.html";
+          break;
+      }
+    }
+
+    if (targetPage) { 
+      window.location.href = targetPage; 
+    } else {
+      alert("Для выбранного района и спорта нет подходящей страницы!");
+    }
   } else {
     alert("Сначала выберите спорт и тип доступа!");
   }
 });
-
