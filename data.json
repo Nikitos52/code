@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Баскетбольная площадка 1",
+    "description": "В этой площадке имеется забор, чтобы мяч не вылетал за площадку. Также на этой площадке есть хорошее покрытие и имеется более-менее нормальное кольцо",
+    "address": "ул. Белореченская, 37, стр2",
+    "image": "pic/fb.jpg",
+    "link": "freebasketball1.html"
+  },
+  {
+    "title": "Баскетбольная площадка 2",
+    "description": "dogjpgjdopvgdvdovdpovdv",
+    "address": "ул. Другая улица, 1",
+    "image": "pic/fb2.jpg",  
+    "link": "freebasketball2.html" 
+  }
+  
+]
+
+
+  
+  
