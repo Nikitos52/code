@@ -9,11 +9,7 @@
   margin-bottom: 50px;
 
 }
-<<<<<<< HEAD:styles/paid_styles.css
 .facility{
-=======
-.request{
->>>>>>> ee0f385fba53b7b0d6db052c458ff183d4cb174c:paid_styles.css
   background-color:orange;
   border:2px solid black;
   height:80px;
@@ -239,39 +235,6 @@ form button[type="submit"]{
   width: 50%;
   height:50%;
 }
-<<<<<<< HEAD:styles/paid_styles.css
-=======
-
-.line hr{
-  border: none;
-  width:1500px;
-  height: 3px;   
-  background-color: orange; 
-  margin: -40px 0px;
-}
-
-.large-button{
-  position:relative;
-  top:100px;
-  left:100px;
-
-}
-
-#facilities {
-  display: flex;
-  flex-wrap: wrap; 
-}
-.facility {
-  width: 300px; 
-  margin: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-.facility img {
-  max-width: 100%;
-  height: auto;
-}
->>>>>>> ee0f385fba53b7b0d6db052c458ff183d4cb174c:paid_styles.css
 
 .line hr{
   border: none;
@@ -287,7 +250,4 @@ form button[type="submit"]{
   top: 40px;
   background: orange;
 
-<<<<<<< HEAD:styles/paid_styles.css
 } 
-=======
->>>>>>> ee0f385fba53b7b0d6db052c458ff183d4cb174c:paid_styles.css

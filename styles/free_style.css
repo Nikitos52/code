@@ -7,11 +7,9 @@
   margin:auto;
   border-radius:50%;
   margin-bottom: 50px;
-  position: relative;
-  top:10px;
 
 }
-.request{
+.facility{
   background-color:orange;
   border:2px solid black;
   height:80px;
@@ -28,8 +26,8 @@
   border: 5px solid black;
   border-radius: 10px;
   position: relative;
-  top:-10px;
-  left:-10px;
+  top:50px;
+  left:300px;
   margin-bottom: 0px;
   background-color: bisque;
 }
@@ -46,8 +44,8 @@ height: 45%;
   border: 5px solid black;
   border-radius: 10px;
   position: relative;
-  top:-350px;
-  left:450px;
+  top:-300px;
+  left:750px;
   background-color: azure;
   
 }
@@ -63,8 +61,8 @@ height: 100px;
 border: 5px solid black;
 border-radius: 10px;
 position: relative;
-top:-800px;
-left:450px;
+top:-750px;
+left:750px;
 background-color: azure;
 }
 h3{
@@ -79,147 +77,53 @@ left:50px;
 width:1050px;
 height:250px;
 position: relative;
-top:-50px;
+top:25px;
 left:20px;
 }
-.link{
-    text-decoration: none; /* Убираем подчеркивание ссылки */
-    display: block; /* Делаем ссылку блочным элементом */
-    position :relative;
-    left:300px;
-    top:50px;
-    width: 890px; /* Ширина блока, настраивайте по своему дизайну */
-    height:490px;
-    border: 1px solid black; /* Рамка вокруг блока (опционально) */
-    border-radius: 5px; /* Скругленные углы (опционально) */
-    padding: 10px; /* Отступ внутри блока */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Тень (опционально) */
-    transition: box-shadow 0.3s ease; /* Плавный эффект при наведении */
-    overflow: hidden;
-    margin-bottom: 100px;
+a.text:active, 
+a.text:hover,  
+a.text {
+ text-decoration: none;
+ color: black;
 }
-
-.link:hover {
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Более сильная тень при наведении */
-  transform: translateY(-2px); /* Небольшой подъем при наведении */
-}
-
 .button {
-    position: relative;
-    left:300px; 
-    background: orange;
+  position: relative;
+  left:300px; 
+  background: orange;
 
-    }
+  }
 
 .otziv{
-    border:5px solid black;
-    margin: -300px 300px;
-    width:900px;
-    height:500px;
-    background-color: rgb(221, 173, 69);
+  border:5px solid black;
+  margin: -300px 300px;
+  width:900px;
+  height:500px;
+  background-color: rgb(221, 173, 69);
+
 }
 .clovaotziv{
   position: relative;
   left:400px;
 }
-
+.clova{
+  background-color: white;
+  border:5px solid black ;
+  margin: 380px 100px;
+  width:700px; 
+  height: 50px;
+}
 form input[type="text"] { 
-width: 80%; 
-height: 40px; 
-padding: 10px; 
-box-sizing: border-box; 
-position: relative;
-top:250px;
+  width: 80%; 
+  height: 40px; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  position: relative;
+  top:360px;
 }
 form button[type="submit"]{
   width: 20%; 
   height: 40px;
   position: relative;
-  top:210px;
+  top:320px;
   left:720px;
 }
-body {
-  background-color: #405061; 
-}
-
-.poblizosti{
-  position: relative;
-  top:15px;
-  left: 300px;
-}
-.line hr{
-border: none;
-width:1500px;
-height: 3px;   
-background-color: orange; 
-margin: -40px 0px;
-}
-.photo img{
-border: 2px solid white;
-border-radius: 10px;
-width: 50%;
-height:50%;
-}
-
-.large-button{
-  position:relative;
-  top:100px;
-  left:100px;
-
-}
-
-.platforms-1{
-  width: 900px;
-  height: 500px;
-  border: 5px solid black;
-  border-radius: 10px;
-  position: relative;
-  top:10px;
-  left:300px;
-  margin-bottom: 0px;
-  background-color: bisque;
-}
-
-.description-1{
-  width: 400px;
-  height: 300px;
-  border: 5px solid black;
-  border-radius: 10px;
-  position: relative;
-  top:-320px;
-  left:750px;
-  background-color: azure;
-}
-
-.adress-1{
-  width: 400px;
-  height: 100px;
-  border: 5px solid black;
-  border-radius: 10px;
-  position: relative;
-  top:-780px;
-  left:750px;
-  background-color: azure;
-}
-
-#facilities {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.facility {
-  width: 300px;
-  margin: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-}
-.facility img {
-  max-width: 100%;
-  height: auto;
-}
-.facility-link {
-  text-decoration: none;
-  display: block; 
-}
-
