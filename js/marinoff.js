@@ -43,5 +43,9 @@ function createCard(item) {
     card.appendChild(adres);
     card.appendChild(opisanie);
 
+    card.addEventListener('click', () => {
+        window.location.href = item.link; 
+    });
+
     return card;
 }
